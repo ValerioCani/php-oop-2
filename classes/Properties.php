@@ -5,8 +5,8 @@ class Properties {
 
     use Address;
 
-    public $price = null;
-    public $rent = null;    
+    protected $price = null;
+    protected $rent = null;    
     
     public function __construct($price, $rent, $address)
     {
